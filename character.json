@@ -4,5 +4,84 @@
         "format": "text",
         "minlength": 3,
         "maxlength": 100
+    },
+    "sex": {
+        "label": "Sex",
+        "format": "select",
+        "values": {
+            "female": "Female",
+            "male": "Male",
+            "unknown": "Unknown"
+        }
+    },
+    "dateOfBirth": {
+        "label": "Date of Birth",
+        "format": "datepicker",
+        "initialDate": "1998-01-01"
+    },
+    "apparentAge": {
+        "label": "Apparent Age",
+        "format": "integer",
+        "class": "short",
+        "maxlength": "3"
+    },
+    "description": {
+        "label": "Description",
+        "format": "textarea",
+        "maxlength": 500
+    },
+    "url": {
+        "label": "URL",
+        "format": "url"
+    },
+    "concept": {
+        "label": "Concept",
+        "format": "text",
+        "maxlength": 100
+    },
+    "nature": {
+        "label": "Nature",
+        "format": "text",
+        "maxlength": 50
+    },
+    "demeanor": {
+        "label": "Demeanor",
+        "format": "text",
+        "maxlength": 50
+    },
+    "essence": {
+        "label": "Essence",
+        "format": "select",
+        "list": "mage.essence"
+    },
+    "eidolon": {
+        "label": "Eidolon",
+        "format": "select",
+        "list": "mage.essence"
+    },
+    "faction": {
+        "label": "Faction",
+        "format": "text",
+        "maxlength": 100
+    },
+    "methodology": {
+        "label": "Methodology",
+        "format": "text",
+        "maxlength": 100
+    },
+    "master": {
+        "label": "Master",
+        "format": "text",
+        "maxlength": 100
+    },
+    "domitor": {
+        "label": "Domitor",
+        "format": "text",
+        "maxlength": 100
+    },
+    "visage": {
+        "label": "Visage",
+        "format": "select",
+        "list": "demon.visage"
     }
 }
