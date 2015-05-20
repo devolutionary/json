@@ -1,0 +1,8 @@
+{
+    "name": {
+        "label": "Name",
+        "format": "text",
+        "minlength": 3,
+        "maxlength": 100
+    }
+}
